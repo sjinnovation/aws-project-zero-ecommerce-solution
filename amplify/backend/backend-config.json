@@ -1,10 +1,32 @@
 {
-  "auth": {
-    "awsproductzero96ea0a2a": {
-      "service": "Cognito",
+  "function": {
+    "personalize": {
+      "build": true,
       "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false
+      "service": "Lambda"
+    }
+  },
+  "auth": {
+    "cognito8d89f4e5": {
+      "service": "Cognito",
+      "serviceType": "managed",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "api": {
+    "personalize": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "personalize",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
     }
   }
 }
