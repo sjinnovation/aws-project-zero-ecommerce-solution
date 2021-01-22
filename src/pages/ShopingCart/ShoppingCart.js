@@ -1,11 +1,18 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import {Link} from 'react-router-dom';
 import {formatMoney} from "../../pipes/priceFormatter";
 import CartItem from "../../components/CartItem/CartItem";
+import {createOrder} from "../../actions";
 
 const ShoppingCart = (props) => {
-    return (
-        <>
+   
+   
+
+   
+
+
+    return (        
                 <div className="container" style={{paddingTop: '6rem'}}>
                     <div className="card shopping-cart">
                         <div className="card-header bg-dark text-light">
@@ -21,13 +28,24 @@ const ShoppingCart = (props) => {
                         <div className="card-footer">
                             <div className="pull-right" style={{margin: '10px'}}>
                                 <div className="pull-right" style={{margin: '5px'}}>
-                                    Total price: <b>{formatMoney(props.totalPrice)}€</b>
-                                </div>
-                            </div>
+                                    Total priced: <b>{formatMoney(props.totalPrice)}€</b>                                    
+                                </div>   
+                            </div>    
                         </div>
+                        <div className="card-footer">
+                                <div className="pull-right" style={{margin: '10px'}}>
+                                    
+                                {props.cartItemCount ? <Link to={`/order`}  class="btn btn-info" >Checkout COD</Link> : ''}
+                                        
+                                                        
+                                        
+                                </div>
+                                
+                        </div>
+
                     </div>
                 </div>
-            </>
+        
     );
 };
 

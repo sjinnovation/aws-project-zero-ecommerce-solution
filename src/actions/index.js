@@ -3,6 +3,23 @@ export const REMOVE_PRODUCT_FROM_CART = 'REMOVE_PRODUCT_FROM_CART';
 export const INCREMENT_CART_ITEM_QUANTITY = 'INCREMENT_CART_ITEM_QUANTITY';
 export const DECREMENT_CART_ITEM_QUANTITY = 'DECREMENT_CART_ITEM_QUANTITY';
 
+export const CREATE_ORDER = "CREATE_ORDER";
+export const CLEAR_ORDER = "CLEAR_ORDER";
+export const CLEAR_CART = "CLEAR_CART";
+export const FETCH_ORDERS = "FETCH_ORDERS";
+
+
+
+
+export const createOrder = order => {
+    return {
+        type: CREATE_ORDER,
+        payload: order
+    }
+}
+
+
+
 export const addProductToCart = product => {
     return {
         type: ADD_PRODUCT_TO_CART,

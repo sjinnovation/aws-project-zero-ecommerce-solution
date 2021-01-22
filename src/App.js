@@ -12,6 +12,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import ProductDetail from "./pages/ProductDetail/ProductDetail";
 import ShoppingCart from "./pages/ShopingCart/ShoppingCart";
+import Order from "./pages/Order/Order";
 
 import Amplify from "aws-amplify";
 import awsExports from "./aws-exports";
@@ -32,7 +33,8 @@ class App extends Component {
                     }}/>
                     <Route exact path={'/products'} component={Home}/>
                     <Route exact path={'/products/:id'} component={ProductDetail}/>
-                    <Route exact patr={'/cart'} component={ShoppingCart}/>
+                    <Route exact path={'/cart'} component={ShoppingCart}/>
+                    <Route exact path={'/order'} component={Order}/>
                 </Switch>
                 <AmplifySignOut />
                 <Footer/>
