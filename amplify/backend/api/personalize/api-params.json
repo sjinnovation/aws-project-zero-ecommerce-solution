@@ -1,7 +1,7 @@
 {
     "paths": [
         {
-            "name": "/products",
+            "name": "/recommend",
             "lambdaFunction": "personalize",
             "privacy": {
                 "private": true,
@@ -13,7 +13,7 @@
                     "/DELETE"
                 ]
             },
-            "policyResourceName": "/products"
+            "policyResourceName": "/recommend"
         }
     ],
     "resourceName": "personalize",
@@ -26,8 +26,8 @@
     "privacy": {
         "auth": 1,
         "unauth": 0,
-        "authRoleName": "amplify-ecommerceweb-dev-154331-authRole",
-        "unAuthRoleName": "amplify-ecommerceweb-dev-154331-unauthRole"
+        "authRoleName": "amplify-awsprojectzeroecomme-dev-111228-authRole",
+        "unAuthRoleName": "amplify-awsprojectzeroecomme-dev-111228-unauthRole"
     },
     "dependsOn": [
         {

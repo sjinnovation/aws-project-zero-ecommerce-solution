@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "ecommerceweb_identitypool_56b380d1",
+    "identityPoolName": "awsprojectzeroecomme_identitypool_42a8d8ab",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "ecomme56b380d1",
-    "userPoolName": "ecommerceweb_userpool_56b380d1",
+    "resourceNameTruncated": "awspro42a8d8ab",
+    "userPoolName": "awsprojectzeroecomme_userpool_42a8d8ab",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "ecomme56b380d1_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "awspro42a8d8ab_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
     "authSelections": "identityPoolAndUserPool",
-    "resourceName": "cognito8d89f4e5",
+    "resourceName": "cognito5aa5eefa",
     "authRoleArn": {
         "Fn::GetAtt": [
             "AuthRole",

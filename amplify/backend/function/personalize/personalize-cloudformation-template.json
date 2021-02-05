@@ -68,8 +68,8 @@
         "Layers": [],
         "Timeout": "25",
         "Code": {
-          "S3Bucket": "amplify-ecommerceweb-dev-154331-deployment",
-          "S3Key": "amplify-builds/personalize-57594f51434c71724f39-build.zip"
+          "S3Bucket": "amplify-awsprojectzeroecomme-dev-111228-deployment",
+          "S3Key": "amplify-builds/personalize-64324d505a4955574141-build.zip"
         }
       }
     },
@@ -79,12 +79,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "ecommercewebLambdaRole96d8a66d",
+            "awsprojectzeroecommeLambdaRolee30d126b",
             {
               "Fn::Join": [
                 "",
                 [
-                  "ecommercewebLambdaRole96d8a66d",
+                  "awsprojectzeroecommeLambdaRolee30d126b",
                   "-",
                   {
                     "Ref": "env"

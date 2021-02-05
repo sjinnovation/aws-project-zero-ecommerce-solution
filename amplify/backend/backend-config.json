@@ -7,7 +7,7 @@
     }
   },
   "auth": {
-    "cognito8d89f4e5": {
+    "cognito5aa5eefa": {
       "service": "Cognito",
       "serviceType": "managed",
       "providerPlugin": "awscloudformation"
@@ -27,12 +27,6 @@
           ]
         }
       ]
-    }
-  },
-  "hosting": {
-    "S3AndCloudFront": {
-      "service": "S3AndCloudFront",
-      "providerPlugin": "awscloudformation"
     }
   }
 }
