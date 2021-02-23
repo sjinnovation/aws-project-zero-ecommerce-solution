@@ -61,7 +61,7 @@ class ProductList extends Component {
     };
 
     async componentDidMount() {
-        const data = await API.get('personalize','/products');
+        const data = await API.get('personalize','/recommend');
         this.setState({ productArr: data});
 
         const filterByRecoArr = recommendFilter(this.props.products, data)
