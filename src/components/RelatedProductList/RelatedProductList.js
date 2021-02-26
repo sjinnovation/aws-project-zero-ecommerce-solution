@@ -19,7 +19,7 @@ class RelatedProductList extends Component {
         currentPage: 1,
         pagesToShow: 3,
         gridValue: 4,
-        productArr: []
+        relatedProductArr: []
     };
 
 
@@ -30,7 +30,7 @@ class RelatedProductList extends Component {
             }
           };
         const data = await API.get('personalize','/recommend', myInit);
-        this.setState({ productArr: data});
+        this.setState({ relatedProductArr: data});
 
         const filterByRecoArr = recommendFilter(this.props.products, data)
         //console.log(filterByRecoArr);
