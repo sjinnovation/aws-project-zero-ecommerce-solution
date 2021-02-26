@@ -9,7 +9,7 @@ def handler(event, context):
     productId = event['queryStringParameters']['productId']
 
     response = personalizeRt.get_recommendations(
-        campaignArn='arn:aws:personalize:us-east-1:786256866628:campaign/awsprojectzeroecommerce-dataset-campaign-2', productId
+        campaignArn='arn:aws:personalize:us-east-1:786256866628:campaign/awsprojectzeroecommerce-dataset-campaign-2', itemId = productId);
 
     itemsArr = []
     print("Recommended items")
