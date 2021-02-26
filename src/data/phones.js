@@ -11,7 +11,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "e1669081-8ffc-4dec-97a6-e9176d7f6651",
+    "id" : 0,
+    "pid": "e1669081-8ffc-4dec-97a6-e9176d7f6651",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Huawei Mate 20 Lite 64 GB (Huawei Türkiye Garantili)",
@@ -26,7 +28,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "cfafd627-7d6b-43a5-be05-4c7937be417d",
+    "id" : 1,
+    "pid": "cfafd627-7d6b-43a5-be05-4c7937be417d",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Huawei P20 Lite 64 GB (Huawei Türkiye Garantili)",
@@ -41,7 +45,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "6e6ad102-7510-4a02-b8ce-5a0cd6f431d1",
+    "id" : 2,
+    "pid": "6e6ad102-7510-4a02-b8ce-5a0cd6f431d1",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Meizu 16TH 64 GB (Meizu Türkiye Garantili)",
@@ -56,7 +62,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "49b89871-5fe7-4898-b99d-953e15fb42b2",
+    "id" : 3,
+    "pid": "49b89871-5fe7-4898-b99d-953e15fb42b2",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Meizu X8 64 GB (Meizu Türkiye Garantili)",
@@ -71,7 +79,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "5cb18925-3a3c-4867-8f1c-46efd7eba067",
+    "id" : 4,
+    "pid": "5cb18925-3a3c-4867-8f1c-46efd7eba067",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Samsung Galaxy A7 2018 64 GB (Samsung Türkiye Garantili)",
@@ -86,7 +96,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "91cc9fa1-d8e9-46ae-9c8d-86264de2c6cc",
+    "id" : 5,
+    "pid": "91cc9fa1-d8e9-46ae-9c8d-86264de2c6cc",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Samsung Galaxy J6 Plus 32 GB (Samsung Türkiye Garantili)",
@@ -101,7 +113,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "ee0cec46-8edf-4436-84f0-d83e7f9c453f",
+    "id" : 6,
+    "pid": "ee0cec46-8edf-4436-84f0-d83e7f9c453f",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Vestel Venus Z20 (Vestel Garantili)",
@@ -116,7 +130,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "0d6971a2-cffb-4602-9d4a-8edef2ac9d22",
+    "id" : 7,
+    "pid": "0d6971a2-cffb-4602-9d4a-8edef2ac9d22",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Xiaomi Mi 8 Lite 128 GB (İthalatçı Garantili)",
@@ -131,7 +147,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "7f9e25ec-34a9-4b27-9f97-041c58e6640e",
+    "id" : 8,
+    "pid": "7f9e25ec-34a9-4b27-9f97-041c58e6640e",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Xiaomi Mi 8 Lite 64 GB (İthalatçı Garantili)",
@@ -146,7 +164,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "eb8f10ab-1317-4a11-b058-b2098bb64326",
+    "id" : 9,
+    "pid": "eb8f10ab-1317-4a11-b058-b2098bb64326",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Apple iPhone 7 32 GB (Apple Türkiye Garantili)",
@@ -161,7 +181,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "b11944ce-c888-4ddb-8f64-f89a6d628288",
+    "id" : 10,
+    "pid": "b11944ce-c888-4ddb-8f64-f89a6d628288",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Samsung Galaxy S10 Plus 128 GB (Samsung Türkiye Garantili)",
@@ -176,7 +198,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "a6432520-a9fe-42a3-8e04-58cd50d18fb0",
+    "id" : 11,
+    "pid": "a6432520-a9fe-42a3-8e04-58cd50d18fb0",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Samsung Galaxy S10 128 GB (Samsung Türkiye Garantili)",
@@ -191,7 +215,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "8a4af646-ffb5-4413-a201-750537e2a318",
+    "id" : 12,
+    "pid": "8a4af646-ffb5-4413-a201-750537e2a318",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Samsung Galaxy S10e 128 GB (Samsung Türkiye Garantili)",
@@ -206,7 +232,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "95677239-43cc-44e4-a97f-4a9c072210ae",
+    "id" : 13,
+    "pid": "95677239-43cc-44e4-a97f-4a9c072210ae",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Samsung Galaxy M20 32 GB (Samsung Türkiye Garantili)",
@@ -221,7 +249,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "ab6462b7-2061-42ba-a19f-a1efc877d800",
+    "id" : 14,
+    "pid": "ab6462b7-2061-42ba-a19f-a1efc877d800",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Samsung Galaxy S8 (Samsung Türkiye Garantili)",
@@ -236,7 +266,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "e1d2ec50-2970-43be-aeb7-fc90779086b7",
+    "id" : 15,
+    "pid": "e1d2ec50-2970-43be-aeb7-fc90779086b7",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Huawei P Smart 2019 64 GB (Huawei Türkiye Garantili)",
@@ -251,7 +283,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "1de0c711-042b-4b47-93d9-3a7d8d969ac6",
+    "id" : 16,
+    "pid": "1de0c711-042b-4b47-93d9-3a7d8d969ac6",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Xiaomi Mi 8 128 GB (İthalatçı Garantili)",
@@ -266,7 +300,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "e65ad5b5-6860-4444-b873-9368c49cf30c",
+    "id" : 17,
+    "pid": "e65ad5b5-6860-4444-b873-9368c49cf30c",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Apple iPhone 6S Plus 32 GB (Apple Türkiye Garantili)",
@@ -281,7 +317,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "25a3547f-4a86-46f5-857a-fc17aa2b8fa0",
+    "id" : 18,
+    "pid": "25a3547f-4a86-46f5-857a-fc17aa2b8fa0",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Meizu 16 64 GB (Meizu Türkiye Garantili)",
@@ -296,7 +334,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "2a33865f-f45b-475f-9e35-29c8de4dc42d",
+    "id" : 19,
+    "pid": "2a33865f-f45b-475f-9e35-29c8de4dc42d",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Vestel Venüs E3 (Vestel Türkiye Garantili)",
@@ -311,7 +351,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "dd9e97a6-4281-40a5-9048-fde7809623fb",
+    "id" : 20,
+    "pid": "dd9e97a6-4281-40a5-9048-fde7809623fb",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Asus Zenfone Max Pro ZB602KL 64 GB (Asus Türkiye Garantili)",
@@ -326,7 +368,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "87603f27-7e5a-441e-95f6-ee33878695da",
+    "id" : 21,
+    "pid": "87603f27-7e5a-441e-95f6-ee33878695da",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Samsung Galaxy Note 9 128 GB (Samsung Türkiye Garantili)",
@@ -341,7 +385,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "4e3dc511-426f-4fdd-9e15-58a7c74c9ff4",
+    "id" : 22,
+    "pid": "4e3dc511-426f-4fdd-9e15-58a7c74c9ff4",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }, {
     "title": "Huawei Mate 20 Lite Dual Sim 64 GB (İthalatçı Garantili)",
@@ -356,7 +402,9 @@ export const phones = [{
     "display": "4.0 326 pixel density",
     "battery": "1480 mAh",
     "memory": "16GB, 32GB and RAM 1 GB",
-    "id": "8cab347e-fa92-46c5-8a0e-371229e1c539",
+    "id" : 23,
+    "pid": "8cab347e-fa92-46c5-8a0e-371229e1c539",
+    "relatedItems" : [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!"
 }
 ]

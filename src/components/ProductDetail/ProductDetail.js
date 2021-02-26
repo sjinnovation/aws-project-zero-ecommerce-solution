@@ -2,6 +2,8 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {formatMoney} from "../../pipes/priceFormatter";
 import {addProductToCart} from "../../actions";
+import { API } from 'aws-amplify';
+import RelatedProductList from '../RelatedProductList/RelatedProductList';
 
 const ProductDetail = (props) => {
 
@@ -32,9 +34,9 @@ const ProductDetail = (props) => {
                 <h3 className="title mb-3">{title}</h3>
 
                 <p className="price-detail-wrap">
-	<span className="price h3 text-warning">
-		<span className="currency">$</span><span className="num">{formatMoney(price)}</span>
-	</span>
+                <span className="price h3 text-warning">
+                    <span className="currency">$</span><span className="num">{formatMoney(price)}</span>
+                </span>
                 </p>
                 <dl className="item-property">
                     <dt>Description</dt>
@@ -77,7 +79,25 @@ const ProductDetail = (props) => {
                 </button>
             </article>
         </aside>
+        
+
+        
     );
 };
+
+const getRelatedItems = (state, props) =>  {
+
+    // const myInit = {
+    //     "queryStringParameters" : {
+    //       "productId": props.product.pid
+    //     }
+    //   };
+    // const data = API.get('personalize','/recommend', myInit);
+    // console.log('related'+data);
+    // return {
+    //     relatedItems : data
+    // }
+};
+
 
 export default connect()(ProductDetail);

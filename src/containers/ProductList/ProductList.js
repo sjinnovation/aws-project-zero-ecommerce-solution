@@ -60,18 +60,23 @@ class ProductList extends Component {
         });
     };
 
-    async componentDidMount() {
-        const data = await API.get('personalize','/recommend');
-        this.setState({ productArr: data});
+    // async componentDidMount() {
+    //     const myInit = {
+    //         "queryStringParameters" : {
+    //           "productId": URL.productId
+    //         }
+    //       };
+    //     const data = await API.get('personalize','/recommend', myInit);
+    //     this.setState({ productArr: data});
 
-        const filterByRecoArr = recommendFilter(this.props.products, data)
-        console.log(filterByRecoArr);
-    }
+    //     const filterByRecoArr = recommendFilter(this.props.products, data)
+    //     console.log(filterByRecoArr);
+    // }
 
     render() {
 
         let isActive = this.state.colValue[this.state.colValue.length -1];
-
+        console.log(this.props.products);
         return (
             <div className="col-lg-9">
                 <div className="row mb-3">
@@ -88,6 +93,7 @@ class ProductList extends Component {
                 <div className="row">
                     {paginationPipe(this.props.products, this.state).map(product =>{
                         let classes = `${this.state.colValue} col-md-6 mb-4`;
+                        console.log(product);
                         return (<div className={classes}>
                             <Product key={product.id} product={product} />
                         </div>)
@@ -113,15 +119,11 @@ const mapStateToProps = state => {
     const brands = state.brandFilter;
     const orderBy = state.orderBy;
     // const reco = this.state.productArr;
-    
-    
     // const filterByRecoArr = recommendFilter(state.shop.products, reco);
-
     // console.log(reco);
 
     const filterByBrandArr = brandFilter(state.shop.products, brands);
     const filterByOrderArr = orderByFilter(filterByBrandArr, orderBy);
-
 
     return {products: filterByOrderArr }
 };

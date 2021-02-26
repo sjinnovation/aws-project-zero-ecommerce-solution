@@ -6,11 +6,10 @@ personalizeRt = boto3.client('personalize-runtime')
 
 def handler(event, context):
 
-    body = json.loads(event['body'])
+    productId = event['queryStringParameters']['productId']
 
     response = personalizeRt.get_recommendations(
-        campaignArn='arn:aws:personalize:us-east-1:786256866628:campaign/awsprojectzeroecommerce-campaign-2',
-        userId=body['userid'])
+        campaignArn='arn:aws:personalize:us-east-1:786256866628:campaign/awsprojectzeroecommerce-dataset-campaign-2', productId
 
     itemsArr = []
     print("Recommended items")

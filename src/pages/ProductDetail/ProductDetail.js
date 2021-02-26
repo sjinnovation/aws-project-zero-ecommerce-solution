@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import ProductDetailComponent from '../../components/ProductDetail/ProductDetail';
 import ProductSlider from "../../components/ProductSlider/ProductSlider";
-
+import RelatedProductList from "../../components/RelatedProductList/RelatedProductList";
 const ProductDetail = (props) => {
 
     console.log(props);
@@ -15,6 +15,12 @@ const ProductDetail = (props) => {
                     <ProductDetailComponent product={props.product}/>
                 </div>
             </div>
+            <hr/>
+
+            <div> 
+                <RelatedProductList product={props.product}/> 
+            </div>
+            
         </div>
     );
 };
