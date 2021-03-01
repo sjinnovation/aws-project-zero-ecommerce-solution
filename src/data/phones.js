@@ -376,7 +376,7 @@ export const phones = [{
     "title": "Samsung Galaxy Note 9 128 GB (Samsung Türkiye Garantili)",
     "category": "phone",
     "images": ["https://productimages.hepsiburada.net/s/20/280-413/9902572142642.jpg?v1", "https://productimages.hepsiburada.net/s/20/280-413/9902572175410.jpg?v1", "https://productimages.hepsiburada.net/s/20/280-413/9902572208178.jpg?v1", "https://productimages.hepsiburada.net/s/20/280-413/9902572240946.jpg?v1"],
-    "brand": "samsung",
+    "brand": "asus",
     "price": 1165.0255199945123,
     "cpu": "1.3GHz Apple A6",
     "camera": "8mp (3264x2448)",

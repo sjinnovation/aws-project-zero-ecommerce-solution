@@ -50,7 +50,6 @@ class RelatedProductList extends Component {
                         </div>)
                     })}
                 </div>
-               
             </div>
         );
     }
